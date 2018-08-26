@@ -5,6 +5,7 @@ from blog.models import Post
 
 def post_list(request):
     posts = Post.published.all()
+    
     context = {
         'posts':posts,
     }

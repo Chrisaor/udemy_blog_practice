@@ -9,6 +9,7 @@ pytz = "*"
 django-extensions = "*"
 shell = "*"
 ipython = "*"
+django-taggit = "*"
 
 [dev-packages]
 
